@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/me/me",
+    "pages/teacher/teacher",
+    "pages/student/student"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00FFFF",
+    "navigationBarTitleText": "组队小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "iconPath": "images/message.png",
+        "selectedIconPath": "images/message-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-active.png"
+      }
+    ],
+    "color": "#666",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
