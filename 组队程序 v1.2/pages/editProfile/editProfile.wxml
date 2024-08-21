@@ -1,0 +1,16 @@
+<view class="container" style="position: relative; left: -1rpx; top: 208rpx">
+  <view class="header">
+    <text class="title" style="position: relative; left: -1rpx; top: -97rpx">个人信息</text>
+  </view>
+  <view class="form-section">
+    <view class="form-item">
+      <text>姓名：</text>
+      <input name="name" placeholder="请输入" value="{{name}}" bindinput="onInputChange" data-field="name"/>
+    </view>
+    <view class="form-item">
+      <text>学号：</text>
+      <input name="studentId" placeholder="请输入" value="{{studentId}}" bindinput="onInputChange" data-field="studentId" type="number"/>
+    </view>
+  </view>
+  <button bindtap="onSubmit" class="submit-button" style="position: relative; left: -2rpx; top: 625rpx; width: 422rpx; height: 125rpx; display: block; box-sizing: border-box">提交</button>
+</view>

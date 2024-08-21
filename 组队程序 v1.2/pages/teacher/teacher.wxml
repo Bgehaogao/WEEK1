@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="header">
+    <text>组队小程序</text>
+  </view>
+  <view class="form">
+    <view class="form-item">
+      <text class="label">*创建人姓名：</text>
+      <input class="input" placeholder="请输入创建人姓名" bindinput="onCreatorNameInput"/>
+    </view>
+    <view class="form-item">
+      <text class="label">队伍类型名称：</text>
+      <input class="input" placeholder="请输入队伍类型名称" bindinput="onTeamTypeNameInput"/>
+    </view>
+    <view class="form-item">
+      <picker mode="select" range="{{rolesOptions}}" bindchange="onRolesChange">
+        
+      </picker>
+    </view>
+    <navigator url="/pages/teacher跳转界面1/3" class="menu-item">
+    <text>提交</text>
+  </navigator>
+  </view>
+</view>

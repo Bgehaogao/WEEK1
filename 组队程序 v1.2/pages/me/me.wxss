@@ -1,0 +1,75 @@
+/* 通用样式 */
+.container {  
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-section {
+  margin-bottom: 20px;
+}
+
+.form-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-item text {
+  width: 70px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.form-item input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #1aad19;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.user-id {
+  font-size: 16px;
+  color: #555;
+}
+
+.menu-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}

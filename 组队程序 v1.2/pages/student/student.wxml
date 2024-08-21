@@ -1,0 +1,8 @@
+<!--pages/student/student.wxml-->
+<view class="container">
+  <view class="clickable-box" bindtap="navigateToTarget01"><image class="box-image" src="/images/student1.png" style="width: 600rpx; height: 180rpx; display: block; box-sizing: border-box"></image></view>
+  <view class="clickable-box" bindtap="navigateToTarget02"><image class="box-image" src="/images/student2.png" style="width: 600rpx; height: 180rpx; display: block; box-sizing: border-box"></image></view>
+  <view class="clickable-box" bindtap="navigateToTarget03"><image class="box-image" src="/images/student3.png" style="width: 600rpx; height: 180rpx; display: block; box-sizing: border-box"></image></view>
+  <view class="clickable-box" bindtap="navigateToTarget04"><image class="box-image" src="/images/student4.png" style="width: 600rpx; height: 180rpx; display: block; box-sizing: border-box"></image></view>
+</view>
+

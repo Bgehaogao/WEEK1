@@ -1,0 +1,14 @@
+<view class="container">
+  <view class="header">
+    <text class="title">队伍名</text>
+  </view>
+  <view class="team-list">
+    <block wx:for="{{teamMembers}}" wx:key="index">
+      <view class="team-member" style="width: 612rpx; height: 152rpx; display: flex; box-sizing: border-box; left: -1rpx; top: -1rpx; position: relative">
+        <image class="avatar" src="{{item.avatar}}"></image>
+        <text class="name" style="width: 62rpx; height: 43rpx; display: block; box-sizing: border-box">{{item.name}}</text>
+        <text class="role">{{item.role}}</text>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="header">
+    <text>创建完成</text>
+  </view>
+  <view class="code-info">
+    <text>队伍类型代码：</text>
+    <text class="code">{{teamCode}}</text>
+    <button bindtap="onCopyCode">复制队伍代码</button>
+  </view>
+</view>

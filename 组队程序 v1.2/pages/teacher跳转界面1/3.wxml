@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="header">
+    <text>3角色队</text>
+  </view>
+  <view class="form">
+    <view class="form-item">
+      <text class="label">角色1：</text>
+      <input class="input" placeholder="请输入" data-role="1" bindinput="onRoleInput"/>
+    </view>
+    <view class="form-item">
+      <text class="label">角色2：</text>
+      <input class="input" placeholder="请输入" data-role="2" bindinput="onRoleInput"/>
+    </view>
+    <view class="form-item">
+      <text class="label">角色3：</text>
+      <input class="input" placeholder="请输入" data-role="3" bindinput="onRoleInput"/>
+    </view>
+    <navigator url="/pages/teacher跳转界面2/4" class="menu-item">
+    <text>提交</text>
+  </navigator>
+  </view>
+</view>

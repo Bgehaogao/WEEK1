@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="user-info">
+    <image src="/assets/avatar.png" class="avatar"></image>
+    <text class="username">{{name}}</text>
+    <text class="user-id">\n学号：{{studentId}}</text>
+  </view>
+  <navigator url="/pages/teams/teams" class="menu-item">
+    <text>我加入的队伍</text>
+  </navigator>
+  <navigator url="/pages/editProfile/editProfile" class="menu-item">
+    <text>更改个人信息</text>
+  </navigator>
+</view>
